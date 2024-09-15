@@ -24,7 +24,7 @@ const Home = () => {
                     <h1 style={{ textAlign: "center", color: "light grey" }}>
                         Antique Military Aircraft in Parallax
                     </h1>
-                    
+
                     <h5 style={{ textAlign: "center", color: "light gray" }}>
                         A Small Webite built by Jonathan Fausset in 2023
                     </h5>
@@ -117,13 +117,17 @@ const Home = () => {
                         <div style={{ height: 400, color: "white" }}>
                             <button class="btn" onClick={scrollToTop}>This is a bomber.</button>
                             <div class="skytrain-text-block">
-                                    <h4>Boeing B-17G Flying Fortress</h4>
-                                    <p>This 4-engined heavy bomber was the most widely used bomber of World War II.</p>
-                                </div>
+                                <h4>Boeing B-17G Flying Fortress</h4>
+                                <p>This 4-engined heavy bomber was the most widely used bomber of World War II.</p>
+                            </div>
                         </div>
                     </div>
-
                 </Parallax>
+
+                <div class="icon-bar">
+                    <a href="#top" class="home"><i class="float_button">Back to the Top</i></a>
+                </div>
+
             </div >
             <h3 style={{ textAlign: "center", color: "black", marginTop: "25px" }}>
                 This has been an example of Parallax scrolling in React.js. Thanks for stopping by!
