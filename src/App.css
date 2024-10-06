@@ -47,7 +47,6 @@
 }
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -236,7 +235,7 @@ body {
 /* For tablets */
 @media screen and (max-width: 1024px) {
   .parallax {
-    height: 30vh;
+    height: 55px;
     /* Reduce height on tablets */
   }
 
