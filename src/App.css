@@ -231,3 +231,30 @@ body {
   color: white;
   box-shadow: 10px 10px 15px black;
 }
+
+
+/* For tablets */
+@media screen and (max-width: 1024px) {
+  .parallax {
+    height: 30vh;
+    /* Reduce height on tablets */
+  }
+
+  .topnav a {
+    width: 50%;
+    /* Adjust navigation link width for tablets */
+  }
+}
+
+/* For mobile devices */
+@media screen and (max-width: 600px) {
+  .parallax {
+    height: 20vh;
+    /* Further reduce height on mobile */
+  }
+
+  .topnav a {
+    width: 100%;
+    /* Make navigation full-width on mobile */
+  }
+}
