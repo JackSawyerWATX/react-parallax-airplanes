@@ -248,7 +248,7 @@ body {
 /* For mobile devices */
 @media screen and (max-width: 600px) {
   .parallax {
-    height: 20vh;
+    height: 200vh;
     /* Further reduce height on mobile */
   }
 
