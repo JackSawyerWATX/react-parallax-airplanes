@@ -160,7 +160,7 @@ const Home = () => {
                                 <button className="btn" onClick={scrollToTop}>This is a bomber.</button>
                                 <div className="text-block">
                                     <h4>Boeing B-17G Flying Fortress</h4>
-                                    <p>Arguably, mainly against Spitfire enthusiasts, the finest fighter plane of the Second World War.</p>
+                                    <p>A heavy bomber used by the U.S. during World War II, dominated the skies over Europe and was known for its durability.</p>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@ const Home = () => {
                                 <button class="btn" onClick={scrollToTop}>This is a bomber.</button>
                                 <div class="skytrain-text-block">
                                     <h4>Boeing B-17G Flying Fortress</h4>
-                                    <p>Arguably, mainly against Spitfire enthusiasts, the finest fighter plane of the Second World War.</p>
+                                    <p>A heavy bomber used by the U.S. during World War II, dominated the skies over Europe and was known for its durability.</p>
                                 </div>
                             </div>
                         </div>
